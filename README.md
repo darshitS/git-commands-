@@ -10,6 +10,7 @@ git add . or git add -A Adds the full directory and its contents to staging
 
 git commit -m 'Commit message here' Commits the file changes in staging and provides a description for the commit
 
+
 git diff **Analyze the differences between old files and ones that have been added to staging **
 
 ### Branching
@@ -52,7 +53,8 @@ You run git pull on a repo that has changes that conflict with your local copy.
 You're presented with the following error message:
 error: The following untracked working tree files would be overwritten by merge:
 README.md
-Please move or remove them before you merge.
+Please move or remove them before you merge. carefully
+
 Aborting
 Natural Response
 large
